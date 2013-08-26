@@ -1,0 +1,6 @@
+.:
+filelist.txt
+initrd.lz
+qimo.menu
+qimo.png
+vmlinuz

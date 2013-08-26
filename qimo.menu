@@ -1,0 +1,8 @@
+LABEL QIMO4KIDS
+MENU LABEL ^Qimo4Kids Live 2.0
+KERNEL er/plugins/qimo/vmlinuz
+INITRD er/plugins/qimo/initrd.lz
+APPEND vga=normal boot=casper netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/qimo/ ramdisk_size=200000 nolock
+TEXT HELP
+                 Qimo4Kids Live.
+ENDTEXT
